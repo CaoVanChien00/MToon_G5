@@ -3,17 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A8D1FBB2633A8A600AD2E98 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D1FBA2633A8A600AD2E98 /* CustomView.swift */; };
+		9A8D1FBD2633BD3700AD2E98 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D1FBC2633BD3700AD2E98 /* CustomImageView.swift */; };
+		9A8D1FBF2633C31A00AD2E98 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D1FBE2633C31A00AD2E98 /* CustomStackView.swift */; };
+		9A8D1FC12633C89D00AD2E98 /* CustomLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D1FC02633C89D00AD2E98 /* CustomLable.swift */; };
+		9A903A6F2632D4500035C34F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903A6E2632D4500035C34F /* CustomTableViewCell.swift */; };
+		9AAC3DE32635159E009788B2 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC3DE22635159E009788B2 /* SlideViewController.swift */; };
+		9AB9087B26355A6B0057B0AD /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9087A26355A6B0057B0AD /* Image.swift */; };
+		9AE243CE2633966E00081241 /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE243CD2633966E00081241 /* CustomTableView.swift */; };
 		9AF9193A26325A6C004A076A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9193926325A6C004A076A /* AppDelegate.swift */; };
-		9AF9193C26325A6C004A076A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9193B26325A6C004A076A /* ViewController.swift */; };
+		9AF9193C26325A6C004A076A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9193B26325A6C004A076A /* MainViewController.swift */; };
 		9AF9193F26325A6C004A076A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9193D26325A6C004A076A /* Main.storyboard */; };
 		9AF9194126325A6D004A076A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9194026325A6D004A076A /* Assets.xcassets */; };
 		9AF9194426325A6D004A076A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9194226325A6D004A076A /* LaunchScreen.storyboard */; };
 		9AF9194F26325A6D004A076A /* MToon_G5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9194E26325A6D004A076A /* MToon_G5Tests.swift */; };
 		9AF9195B26325C65004A076A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9195A26325C65004A076A /* GoogleService-Info.plist */; };
+		9AF91960263270FF004A076A /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9195F263270FF004A076A /* SlideInTransition.swift */; };
 		DA181DA7EBE83943FC853EF7 /* Pods_MToon_G5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D018B7B8739830D45F0055 /* Pods_MToon_G5.framework */; };
 		FAD94C096BC95C5C4EB13BE8 /* Pods_MToon_G5Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B4ABEE6632A8D4E1FEAE0E /* Pods_MToon_G5Tests.framework */; };
 /* End PBXBuildFile section */
@@ -31,9 +40,17 @@
 /* Begin PBXFileReference section */
 		631D7702453E902589F253A9 /* Pods-MToon_G5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MToon_G5.debug.xcconfig"; path = "Target Support Files/Pods-MToon_G5/Pods-MToon_G5.debug.xcconfig"; sourceTree = "<group>"; };
 		80D018B7B8739830D45F0055 /* Pods_MToon_G5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MToon_G5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8D1FBA2633A8A600AD2E98 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		9A8D1FBC2633BD3700AD2E98 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		9A8D1FBE2633C31A00AD2E98 /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		9A8D1FC02633C89D00AD2E98 /* CustomLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLable.swift; sourceTree = "<group>"; };
+		9A903A6E2632D4500035C34F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9AAC3DE22635159E009788B2 /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		9AB9087A26355A6B0057B0AD /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		9AE243CD2633966E00081241 /* CustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
 		9AF9193626325A6C004A076A /* MToon_G5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MToon_G5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF9193926325A6C004A076A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AF9193B26325A6C004A076A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AF9193B26325A6C004A076A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9AF9193E26325A6C004A076A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AF9194026325A6D004A076A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AF9194326325A6D004A076A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +59,7 @@
 		9AF9194E26325A6D004A076A /* MToon_G5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MToon_G5Tests.swift; sourceTree = "<group>"; };
 		9AF9195026325A6D004A076A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AF9195A26325C65004A076A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9AF9195F263270FF004A076A /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		A11AFE10124249CADBD0E2C6 /* Pods-MToon_G5Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MToon_G5Tests.release.xcconfig"; path = "Target Support Files/Pods-MToon_G5Tests/Pods-MToon_G5Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ACB9F597C9EFE300BD6CF1D1 /* Pods-MToon_G5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MToon_G5.release.xcconfig"; path = "Target Support Files/Pods-MToon_G5/Pods-MToon_G5.release.xcconfig"; sourceTree = "<group>"; };
 		C8B4ABEE6632A8D4E1FEAE0E /* Pods_MToon_G5Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MToon_G5Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +103,6 @@
 				E488031873FF96D36BE57CC4 /* Pods-MToon_G5Tests.debug.xcconfig */,
 				A11AFE10124249CADBD0E2C6 /* Pods-MToon_G5Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,8 +129,10 @@
 		9AF9193826325A6C004A076A /* MToon_G5 */ = {
 			isa = PBXGroup;
 			children = (
+				9AF9195E263270B6004A076A /* Library */,
+				9AF9195D26327032004A076A /* Model */,
+				9AF9195C263268B4004A076A /* View Controller */,
 				9AF9195A26325C65004A076A /* GoogleService-Info.plist */,
-				9AF9193B26325A6C004A076A /* ViewController.swift */,
 				9AF9193D26325A6C004A076A /* Main.storyboard */,
 				9AF9195926325A8A004A076A /* System FIles */,
 			);
@@ -138,6 +157,37 @@
 				9AF9194526325A6D004A076A /* Info.plist */,
 			);
 			path = "System FIles";
+			sourceTree = "<group>";
+		};
+		9AF9195C263268B4004A076A /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AF9193B26325A6C004A076A /* MainViewController.swift */,
+				9AAC3DE22635159E009788B2 /* SlideViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		9AF9195D26327032004A076A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AF9195E263270B6004A076A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9AF9195F263270FF004A076A /* SlideInTransition.swift */,
+				9A903A6E2632D4500035C34F /* CustomTableViewCell.swift */,
+				9AE243CD2633966E00081241 /* CustomTableView.swift */,
+				9A8D1FBA2633A8A600AD2E98 /* CustomView.swift */,
+				9A8D1FBC2633BD3700AD2E98 /* CustomImageView.swift */,
+				9A8D1FBE2633C31A00AD2E98 /* CustomStackView.swift */,
+				9A8D1FC02633C89D00AD2E98 /* CustomLable.swift */,
+				9AB9087A26355A6B0057B0AD /* Image.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,8 +359,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF9193C26325A6C004A076A /* ViewController.swift in Sources */,
+				9A8D1FBF2633C31A00AD2E98 /* CustomStackView.swift in Sources */,
+				9AF91960263270FF004A076A /* SlideInTransition.swift in Sources */,
+				9A8D1FBD2633BD3700AD2E98 /* CustomImageView.swift in Sources */,
+				9A8D1FBB2633A8A600AD2E98 /* CustomView.swift in Sources */,
+				9AF9193C26325A6C004A076A /* MainViewController.swift in Sources */,
+				9A903A6F2632D4500035C34F /* CustomTableViewCell.swift in Sources */,
+				9AAC3DE32635159E009788B2 /* SlideViewController.swift in Sources */,
+				9AE243CE2633966E00081241 /* CustomTableView.swift in Sources */,
 				9AF9193A26325A6C004A076A /* AppDelegate.swift in Sources */,
+				9AB9087B26355A6B0057B0AD /* Image.swift in Sources */,
+				9A8D1FC12633C89D00AD2E98 /* CustomLable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
