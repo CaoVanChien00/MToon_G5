@@ -7,18 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9AC7F319263657380088CE54 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7F318263657380088CE54 /* User.swift */; };
-		9AC7F31C26365DCD0088CE54 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7F31B26365DCD0088CE54 /* Comic.swift */; };
+		9AAC7D6226379E0F00EC562C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC7D6126379E0F00EC562C /* MainViewController.swift */; };
 		9AF9193A26325A6C004A076A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9193926325A6C004A076A /* AppDelegate.swift */; };
 		9AF9193F26325A6C004A076A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9193D26325A6C004A076A /* Main.storyboard */; };
 		9AF9194126325A6D004A076A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9194026325A6D004A076A /* Assets.xcassets */; };
 		9AF9194426325A6D004A076A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9194226325A6D004A076A /* LaunchScreen.storyboard */; };
 		9AF9194F26325A6D004A076A /* MToon_G5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9194E26325A6D004A076A /* MToon_G5Tests.swift */; };
 		9AF9195B26325C65004A076A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9195A26325C65004A076A /* GoogleService-Info.plist */; };
-		9AFA0B1F263665BD0079F395 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA0B1E263665BD0079F395 /* Chapter.swift */; };
-		9AFA0B212636726D0079F395 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA0B202636726D0079F395 /* Story.swift */; };
-		9AFA0B23263673340079F395 /* CrawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA0B22263673340079F395 /* CrawData.swift */; };
-		9AFA0B25263673550079F395 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA0B24263673550079F395 /* Auth.swift */; };
 		DA181DA7EBE83943FC853EF7 /* Pods_MToon_G5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D018B7B8739830D45F0055 /* Pods_MToon_G5.framework */; };
 		FAD94C096BC95C5C4EB13BE8 /* Pods_MToon_G5Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B4ABEE6632A8D4E1FEAE0E /* Pods_MToon_G5Tests.framework */; };
 /* End PBXBuildFile section */
@@ -36,8 +31,7 @@
 /* Begin PBXFileReference section */
 		631D7702453E902589F253A9 /* Pods-MToon_G5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MToon_G5.debug.xcconfig"; path = "Target Support Files/Pods-MToon_G5/Pods-MToon_G5.debug.xcconfig"; sourceTree = "<group>"; };
 		80D018B7B8739830D45F0055 /* Pods_MToon_G5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MToon_G5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC7F318263657380088CE54 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		9AC7F31B26365DCD0088CE54 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		9AAC7D6126379E0F00EC562C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9AF9193626325A6C004A076A /* MToon_G5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MToon_G5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF9193926325A6C004A076A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AF9193E26325A6C004A076A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,10 +42,6 @@
 		9AF9194E26325A6D004A076A /* MToon_G5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MToon_G5Tests.swift; sourceTree = "<group>"; };
 		9AF9195026325A6D004A076A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AF9195A26325C65004A076A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9AFA0B1E263665BD0079F395 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
-		9AFA0B202636726D0079F395 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
-		9AFA0B22263673340079F395 /* CrawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrawData.swift; sourceTree = "<group>"; };
-		9AFA0B24263673550079F395 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		A11AFE10124249CADBD0E2C6 /* Pods-MToon_G5Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MToon_G5Tests.release.xcconfig"; path = "Target Support Files/Pods-MToon_G5Tests/Pods-MToon_G5Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ACB9F597C9EFE300BD6CF1D1 /* Pods-MToon_G5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MToon_G5.release.xcconfig"; path = "Target Support Files/Pods-MToon_G5/Pods-MToon_G5.release.xcconfig"; sourceTree = "<group>"; };
 		C8B4ABEE6632A8D4E1FEAE0E /* Pods_MToon_G5Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MToon_G5Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,8 +91,6 @@
 		9AC7F31A263658CF0088CE54 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				9AFA0B22263673340079F395 /* CrawData.swift */,
-				9AFA0B24263673550079F395 /* Auth.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -164,6 +152,7 @@
 		9AF9195C263268B4004A076A /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9AAC7D6126379E0F00EC562C /* MainViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -171,10 +160,6 @@
 		9AF9195D26327032004A076A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9AC7F318263657380088CE54 /* User.swift */,
-				9AC7F31B26365DCD0088CE54 /* Comic.swift */,
-				9AFA0B1E263665BD0079F395 /* Chapter.swift */,
-				9AFA0B202636726D0079F395 /* Story.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -355,13 +340,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC7F319263657380088CE54 /* User.swift in Sources */,
-				9AC7F31C26365DCD0088CE54 /* Comic.swift in Sources */,
+				9AAC7D6226379E0F00EC562C /* MainViewController.swift in Sources */,
 				9AF9193A26325A6C004A076A /* AppDelegate.swift in Sources */,
-				9AFA0B1F263665BD0079F395 /* Chapter.swift in Sources */,
-				9AFA0B25263673550079F395 /* Auth.swift in Sources */,
-				9AFA0B23263673340079F395 /* CrawData.swift in Sources */,
-				9AFA0B212636726D0079F395 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
