@@ -11,15 +11,8 @@ import SwiftSoup
 
 //Main class
 class Main {
-    
+    func main() {
+    }
 }
 
 //MARK: Begin create class
-
-class Chapter {
-
-}
-
-class DBChapter {
-    
-}
